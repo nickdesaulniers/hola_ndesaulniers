@@ -1,0 +1,6 @@
+#!/Users/ndesaulniers/.rvm/rubies/ruby-1.9.3-p194/bin/ruby
+# chmod a+x bin/hola_ndesaulniers
+# ruby -Ilib ./bin/hola_ndesaulniers
+
+require 'hola_ndesaulniers'
+puts HolaNdesaulniers.hi (ARGV[0].nil? ? nil : ARGV[0].to_sym)

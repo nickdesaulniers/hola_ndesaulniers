@@ -1,6 +1,5 @@
 class HolaNdesaulniers
   def self.hi language = :english
-    puts Translator
     translator = Translator.new language
     puts translator.hi
   end
