@@ -1,7 +1,7 @@
 class HolaNdesaulniers
-  def self.hi language = :english
-    translator = Translator.new language
-    puts translator.hi
+  def self.hi language
+    translator = Translator.new (language ? language.to_sym : :english)
+    translator.hi
   end
 end
 

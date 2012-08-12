@@ -5,7 +5,7 @@
 # the -I command is since were running it non gemmed.
 Gem::Specification.new do |s|
   s.name        = 'hola_ndesaulniers'
-  s.version     = '0.0.2'
+  s.version     = '0.0.3'
   s.date        = '2012-08-12'
   s.summary     = 'Hola!'
   s.description = 'A simple hello world gem'

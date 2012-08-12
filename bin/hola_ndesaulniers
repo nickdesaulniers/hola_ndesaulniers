@@ -3,4 +3,4 @@
 # ruby -Ilib ./bin/hola_ndesaulniers
 
 require 'hola_ndesaulniers'
-puts HolaNdesaulniers.hi (ARGV[0].nil? ? nil : ARGV[0].to_sym)
+puts HolaNdesaulniers.hi ARGV[0]
